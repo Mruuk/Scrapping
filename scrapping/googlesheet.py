@@ -3,7 +3,7 @@ import gspread
 
 def sheet_google():
   gc = gspread.service_account(filename='credentials.json')
-  sh_id = '10RVlErMrLTMHkQiglSXu6o9fEaU1OYm2SWXwC7KycfU'
+  sh_id = 'your id'
 
   
   csv = open('jobs.csv','r').read().encode('utf8')
